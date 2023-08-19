@@ -1,0 +1,17 @@
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  flex-wrap: nowrap;
+  color: #E0FFFF;
+}
+
+.filtercont {
+  width: 100%;
+}
+
+p {
+  width: auto;
+}

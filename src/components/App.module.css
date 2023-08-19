@@ -1,0 +1,71 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  background-color: #66CDAA;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px;
+}
+
+* {
+  transition: all 350ms ease;
+}
+
+.allContacts {
+  color:#4682B4;
+  font-weight: bold;
+}
+
+button {
+  all: unset;
+  width: auto;
+  height: 30px;
+  border-radius: 10px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #E0FFFF;
+  color:#00CED1;
+  box-shadow: 0px 0px 5px;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  transition: all 200ms ease;
+}
+button:hover {
+  border-color: #008B8B;
+  transition: all 280ms ease;
+  box-shadow: 0px 0px 5px;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+input {
+  all: unset;
+  width: auto;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 6px;
+  border: 1px solid #008B8B;
+  font-family: 'QuickSand', sans-serif;
+  color: #4682B4;
+  background-color: #E0FFFF;
+  transition: all 100ms ease;
+}
+
+input:hover {
+  border-color: #008B8B;
+  transition: all 280ms ease;
+  box-shadow: 0px 0px 15px;
+  transition: all 100ms ease;
+}
+

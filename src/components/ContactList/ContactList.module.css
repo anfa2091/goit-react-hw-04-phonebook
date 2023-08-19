@@ -1,0 +1,27 @@
+
+.list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  border-radius: 4px;
+  gap: 10px;
+  font-family: 'QuickSand', sans-serif;
+}
+
+.item {
+  align-items: center;
+  background-color: #7FFFD4;
+  color: #4682B4;
+  padding: 15px;
+  border-radius: 9px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

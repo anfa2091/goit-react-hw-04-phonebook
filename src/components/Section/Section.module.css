@@ -1,0 +1,15 @@
+
+.title {
+  color: #4682B4;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'QuickSand', sans-serif;
+  margin: 20px 0 0 0;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  gap: 20px;
+}
